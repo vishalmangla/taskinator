@@ -23,6 +23,7 @@ body {
 
 header {
   background: var(--secondary);
+  
   padding: 30px 25px;
   border-bottom: 5px solid var(--primary);
 }
@@ -56,6 +57,7 @@ form input {
 
 form .form-group {
   margin: 10px 6px 10px 0;
+  
   flex: 1;
 }
 
