@@ -40,6 +40,8 @@ var createTaskEl = function(taskDataObj) {
     listItemEl.appendChild(taskInfoEl);
 
     // add entire list item to list
+    var taskActionEl = createTaskActions(taskIdCounter);
+    listItemEl.appendChild(taskActionEl);
     tasksToDoEl.appendChild(listItemEl);
     //increase the tast counter for the next unique id
     taskIdCounter++;
